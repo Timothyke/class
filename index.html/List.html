@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About AI - Futuristic List</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #ffffff;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #00ffcc;
+            text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ff66ff;
+            text-shadow: 0 0 10px #ff66ff, 0 0 20px #ff66ff;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        ol {
+            list-style-type: lower-alpha;
+            font-size: 1.3rem;
+            background: rgba(0, 255, 204, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: left;
+            box-shadow: 0 0 20px rgba(0, 255, 204, 0.5);
+            margin-bottom: 30px;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+            color: #00ffcc;
+            transition: color 0.3s ease;
+        }
+
+        ol li:hover {
+            color: #ff66ff;
+            transform: translateX(10px);
+            transition: 0.3s ease-in-out;
+        }
+
+        ul {
+            font-size: 1.3rem;
+            color: #ffffff;
+            background: rgba(255, 102, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: left;
+            box-shadow: 0 0 20px rgba(255, 102, 255, 0.5);
+            margin-bottom: 10px;
+        }
+
+        ul:hover {
+            background: rgba(255, 102, 255, 0.3);
+            transition: background 0.3s ease-in-out;
+        }
+
+        ul::before {
+            content: '➤ ';
+            color: #ff66ff;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            ol, ul {
+                width: 200px;
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML List</h1>
+    <p>Ordered List</p>
+    <ol>
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Apple</li>
+    </ol>
+
+    <p>Unordered List</p>
+    <ul>Trousers</ul>
+    <ul>T-shirts</ul>
+    <ul>Shirt</ul>
+</body>
+</html>
